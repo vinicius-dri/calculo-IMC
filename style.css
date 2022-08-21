@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #1C543F, #206059);
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 40px;
+}
+
+main {
+    width: 50vw;
+    height: 60vh;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    background-color: #C7E1EC;
+}
+main .infos {
+    font-size: 2.5rem;
+    margin-left: 30px;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+.id, .altura, .peso {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#nome, #altura, #peso {
+    width: 50%;
+    height: 40px;
+}
+
+#btn {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 35px;
+
+}
+
+.btn {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover {
+    font-style: italic;
+}
+
+#resIMC {
+    font-size: 2.5rem;
+    margin-left: 40%;
+    margin-top: 40px;
+}
+
+#msg {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 2.5rem;
+    /* font-weight: 400; */
+}
