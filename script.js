@@ -1,7 +1,4 @@
 
-
-
-
 function calcular() {
     var nome = document.querySelector("#nome").value
     var altura = document.getElementById('altura').value
@@ -40,6 +37,6 @@ function resetar() {
     document.querySelector("#nome").value = ''
     document.querySelector("#altura").value = ''
     document.querySelector("#peso").value = ''
-    document.querySelector("result").value = ''
-   
+    document.querySelector("#result").innerHTML = ''
+    document.querySelector("#msg").innerHTML = ''
 }

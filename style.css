@@ -41,6 +41,7 @@ main .infos {
 #nome, #altura, #peso {
     width: 50%;
     height: 40px;
+    font-size: 1.3rem;
 }
 
 #btn {
